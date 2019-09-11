@@ -1,5 +1,5 @@
 <template>
-  <div class="Joke col-12">
+  <div class="Joke col-12 h">
     <h5 class="mt-5">{{chuckJoke.value}}</h5>
     <button class="btn btn-success" @click="getJoke()">Get Joke</button>
   </div>
@@ -30,5 +30,8 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
+.h {
+  height: 50vh;
+}
 </style>
